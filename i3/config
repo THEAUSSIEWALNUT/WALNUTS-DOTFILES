@@ -501,13 +501,13 @@ bar {
 	strip_workspace_numbers yes
 	 colors {
 		    separator          $red
-		    background         $bg_dim
+		    background         #000000
 		    statusline         $fg1
 #                       	   		border 		        bg		txt		indicator
-			focused_workspace	$bg_dim		   	$bg3		$fg0		$red
-			active_workspace	$bg_dim	     		$bg1 		$fg0		$red
-			inactive_workspace	$bg_dim   		$bg_dim		$bg_statusline2		$red
-			urgent_workspace	$bg_dim	 	   	$red		$bg_diff_red		$red
+			focused_workspace	#000000		   	$bg3		$fg0		$red
+			active_workspace	#000000	     		$bg1 		$fg0		$red
+			inactive_workspace	#000000  		#000000		$bg_statusline2		$red
+			urgent_workspace	#000000	 	   	$red		$bg_diff_red		$red
 	}
 }
 
